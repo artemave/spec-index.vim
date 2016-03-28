@@ -4,12 +4,15 @@ window.
 Author:  Artem Avetisyan <https://github.com/artemave>
 License: Same terms as Vim itself (see |license|)
 
-USAGE
+==============================================================================
+
+USAGE                                           *spec-index.vim-usage*
 
 This plugin exports one function - ShowSpecIndex(). I map it like this:
 
     nnoremap <Leader>si :call ShowSpecIndex()<cr>
 
+==============================================================================
 
 ABOUT                                           *spec-index.vim-about*
 
