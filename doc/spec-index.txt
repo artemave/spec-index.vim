@@ -1,0 +1,20 @@
+*spec-index.vim* Read and navigate your rspec/mocha/etc. tests in a quickfix
+window.
+
+Author:  Artem Avetisyan <https://github.com/artemave>
+License: Same terms as Vim itself (see |license|)
+
+USAGE
+
+This plugin exports one function - ShowSpecIndex(). I map it like this:
+
+    nnoremap <Leader>si :call ShowSpecIndex()<cr>
+
+
+ABOUT                                           *spec-index.vim-about*
+
+Grab the latest version or report a bug on GitHub:
+
+http://github.com/artemave/spec-index.vim
+
+ vim:tw=78:et:ft=help:norl:
