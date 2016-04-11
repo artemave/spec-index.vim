@@ -20,3 +20,5 @@ function ShowSpecIndex()
   set conceallevel=2 concealcursor=nc
   syntax match qfFileName /^[^|]*|[^|]*| / transparent conceal
 endfunction
+
+command! ShowSpecIndex call ShowSpecIndex()

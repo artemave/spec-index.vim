@@ -10,7 +10,7 @@ I like [vundle](https://github.com/VundleVim/Vundle.vim):
 ```
 Plugin 'artemave/spec-index.vim'
 " optionally set the mapping
-nnoremap <Leader>si :call ShowSpecIndex()<cr>
+nnoremap <Leader>si :ShowSpecIndex<cr>
 ```
 
 But any other installation method works too.
