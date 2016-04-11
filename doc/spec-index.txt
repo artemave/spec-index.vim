@@ -1,4 +1,4 @@
-*spec-index.vim* Read and navigate your rspec/mocha/etc. tests in a quickfix
+*spec-index.vim* Read and navigate your rspec/mocha/etc. tests in a location list
 window.
 
 Author:  Artem Avetisyan <https://github.com/artemave>
@@ -11,6 +11,9 @@ USAGE                                           *spec-index.vim-usage*
 This plugin exports one function - ShowSpecIndex(). I map it like this:
 
     nnoremap <Leader>si :call ShowSpecIndex()<cr>
+
+If you have vim-unimpaired installed, then you can navigate to the next/previous
+locations with ]l and [l.
 
 ==============================================================================
 

@@ -1,5 +1,5 @@
 # spec-index.vim
-Read and navigate your rspec/mocha/etc. tests in a quickfix window.
+Read and navigate your rspec/mocha/etc. tests in a location list window.
 
 ![gif](https://dl.dropboxusercontent.com/s/k48fz9faqsuwcbn/cll_snippet.gif)
 
