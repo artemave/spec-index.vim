@@ -8,9 +8,11 @@ License: Same terms as Vim itself (see |license|)
 
 USAGE                                           *spec-index.vim-usage*
 
-This plugin exports one function - ShowSpecIndex(). I map it like this:
+This plugin exports one function - ShowSpecIndex(), and a command ShowSpecIndex.
 
-    nnoremap <Leader>si :call ShowSpecIndex()<cr>
+I map it like this:
+
+    nnoremap <Leader>si :ShowSpecIndex<cr>
 
 ==============================================================================
 
